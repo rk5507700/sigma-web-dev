@@ -1,0 +1,17 @@
+td{
+    background-color: rgb(14, 87, 135);
+    border: 2px solid black;
+}
+table{
+    border: 2px solid black;
+}
+th{
+    background-color: rgb(34, 34, 212);
+    border: 2px solid black;
+}
+body{
+    background-color: aqua;
+}
+img{
+    opacity: 70%;
+}
