@@ -1,0 +1,17 @@
+#div1{
+    color: red;
+    background-color: aqua;  
+ }
+#div2{
+    color: rgb(56, 182, 100);
+    background-color: palegreen;
+}
+#div3{
+    color: rgb(255, 255, 255);
+    background-color: gray;  
+}
+.class1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-align: center;
+}
