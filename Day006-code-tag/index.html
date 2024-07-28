@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printing the tags.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <pre>
+            <code>
+                #include&lt;stdio.h&gt;
+                #include&lt;stdlib.h&gt;
+
+                struct stack{
+                    int size;
+                    int top;
+                    int* arr;
+                };
+
+                int main(){
+                    struct stack* stack;
+                    stack = (struct stack*)malloc(sizeof(struct stack));
+                    stack->size = 20;
+                    stack->top = -1;
+                    stack->arr = (int*)malloc(stack->size*sizeof(int));
+
+                    return 0;
+                }
+            </code>
+        </pre>
+    </header>
+    <footer class="footer">
+
+        Copyright&copy; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rahul Kumawat
+    </footer>
+    
+    
+</body>
+</html>
