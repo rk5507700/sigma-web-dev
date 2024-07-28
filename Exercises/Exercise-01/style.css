@@ -1,0 +1,10 @@
+.myclass{
+    border-radius: 10px;
+    padding-left: 5%;
+}
+.iclass{
+    border: 2px solid black;
+    margin-left: 34%;
+    margin-right: 23%;
+    border-radius: 5px;
+}
